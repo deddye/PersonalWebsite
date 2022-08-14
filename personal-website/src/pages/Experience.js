@@ -13,18 +13,6 @@ function Experience() {
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2015 - 2019"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
-          icon={<SchoolIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Riverbend High School
-          </h3>
-          <h4>Fredericksburg, VA</h4>
-          <p> Advanced Diploma</p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
           date="2019 - 2023 (Expected)"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
@@ -79,6 +67,23 @@ function Experience() {
             Participated in daily stand-ups with mentors and bi-weekly sprint reviews
             with company CTO, HR, other interns and their mentors.
           </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Aug 2022 - Present"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Part-Time On-Call (PTOC) Intern - SimVentions
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Fredericksburg, VA
+          </h4>
+          <p>
+            Add text for job description.
+          </p>
+
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

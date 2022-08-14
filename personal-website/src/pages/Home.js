@@ -46,7 +46,7 @@ function Home() {
           <li className='item'>
             <h2> Languages </h2>
             <span> 
-              Java - JavaFX, C, C#, Kotlin, Python, C++, JavaScript
+              Java - JavaFX, C, Kotlin, Python, C++, JavaScript, C#
             </span>
           </li>
           <li className='item'>
