@@ -23,7 +23,7 @@ function Footer() {
           <EmailIcon />
         </IconButton>
       </div>
-      <p> &copy; 2022 etxn.io </p>
+      <p> &copy; 2022 etxnd.com </p>
     </div>
   );
 }

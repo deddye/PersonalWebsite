@@ -10,10 +10,10 @@ function Home() {
   return (
     <div className='home'>
       <div className='about'>
-        <h2> Hi! I'm Ethan. </h2>
+        <h2> Hi! I'm Ethan </h2>
         <div className='prompt'> 
           <p>
-            Computer Science student trying to build cool things.
+            I'm a Computer Science student trying to build cool things.
           </p>
           <p>
             Current Interest: Systems with C
@@ -30,6 +30,7 @@ function Home() {
           </a>
           <IconButton color='primary'>
             <EmailIcon />
+            <p> Email doesn't work :( </p>
           </IconButton>
         </div>
       </div>
