@@ -13,10 +13,10 @@ function Home() {
         <h2> Hi! I'm Ethan. </h2>
         <div className='prompt'> 
           <p>
-            Full-time CS student. Part-time construction worker.
+            Computer Science student trying to build cool things.
           </p>
           <p>
-            All the time software enthusiast.
+            Current Interest: Systems with C
           </p>
           <a href='https://www.linkedin.com/in/david-dye-cs22/' target='_blank' rel='noreferrer' >
             <IconButton color='primary' >
@@ -34,19 +34,19 @@ function Home() {
         </div>
       </div>
       <div className='skills'>
-        <h1> Skills </h1>
+        <h1> <u>Skills</u> </h1>
         <ol className='list'>
           <li className='item'>
             <h2> Tools / OS </h2>
             <span> 
-              Windows, Linux, Eclipse, VS Code, Android Studio, 
-              ReactJS, NPM, MaterialUI
+              Windows, Linux, VS Code, Android Studio, 
+              Azure, Teams, NPM, MaterialUI
             </span>
           </li>
           <li className='item'>
             <h2> Languages </h2>
             <span> 
-              Java - JavaFX, C, Kotlin, Python, C++, JavaScript, C#
+              Java - JavaFX, C, Assembly, Kotlin, Python, C++, JavaScript, C#
             </span>
           </li>
           <li className='item'>
