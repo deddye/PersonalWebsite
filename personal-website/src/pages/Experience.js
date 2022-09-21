@@ -21,11 +21,14 @@ function Experience() {
             Virginia Polytechnic Institute and State University
           </h3>
 
-          <h4 className="vertical-timeline-element-subtitle">
-            B.S.
-          </h4>
-
-          <p> Computer Science </p>
+          <p> B.S. Computer Science </p>
+          <p>
+            Relevant Coursework: <br></br>
+            CS 3114: Data Structure and Algorithms <br></br>
+            CS 2506: Computer Organization I & II <br></br>
+            CS 3714: Mobile Software Development (Android) <br></br>
+            CS 3214: Computer Systems
+          </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -59,14 +62,16 @@ function Experience() {
           <h4 className="vertical-timeline-element-subtitle">
             Fredericksburg, VA
           </h4>
+          
           <p>
-            Performed research and developed prototypes for kiosk display applications, 
-            3D models and VR tours
+            <ul>
+              <li> Performed research and developed prototypes for kiosk display applications, 
+                   3D models and VR tours </li>
+              <li> Participated in daily stand-ups with mentors and bi-weekly sprint reviews
+                   with company CTO, HR, other interns and their mentors. </li>
+            </ul>
           </p>
-          <p>
-            Participated in daily stand-ups with mentors and bi-weekly sprint reviews
-            with company CTO, HR, other interns and their mentors.
-          </p>
+
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -81,7 +86,12 @@ function Experience() {
             Fredericksburg, VA
           </h4>
           <p>
-            Add text for job description.
+            <ul>
+              <li> Participated in daily SCRUMS and code reviews. </li>
+              <li> Updated NPM packages </li>
+              <li> Changed gql queries from .tsx file type to plain text .gql file type</li>
+            </ul>
+
           </p>
 
         </VerticalTimelineElement>
