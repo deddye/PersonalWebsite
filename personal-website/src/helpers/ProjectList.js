@@ -2,15 +2,42 @@ import Assembler from '../assets/assembler.png'
 import Website from '../assets/personalwebsite.JPG'
 import GISPicture from '../assets/gis.JPG'
 import Dijkstra from '../assets/dijkstra.JPG'
+import CS3214 from '../assets/fairlockOutput.JPG'
+import Cush from '../assets/cush.JPG'
+import Threadpool from '../assets/threadpool.JPG'
 
 export const ProjectList = [
     {
         name: 'Personal Website',
         url: 'https://github.com/deddye/PersonalSite',
         image: Website,
-        skills: 'ReactJS, JavaScript, CSS, Research',
+        skills: 'ReactJS, CSS, Research',
         private: false,
         description: 'Portfolio webpage I made to display experiences and to begin learning React',
+    },
+    {
+        name:'Cush',
+        url: 'https://github.com/deddye/Cush',
+        image: Cush,
+        skills: 'C, Basic OS functionality, POSIX library, Linux (CentOS8)',
+        private: true,
+        description: 'Program to run a custom shell which can handle a few builtins, processes, pipes, and I/O'
+    },
+    {
+        name:'Threadpool',
+        url: 'https://github.com/deddye/Threadpool',
+        image: Threadpool,
+        skills: 'C, Understanding of threads, Linux (CentOS8)',
+        private: true,
+        description: 'Threadpool which accepts tasks and completes them, implements work stealing for performance'
+    },
+    {
+        name:'CS3214 / Systems exercises',
+        url: 'https://github.com/deddye/My-Favorite-Exercises-from-CS3214',
+        image: CS3214,
+        skills: 'C, Pthread library',
+        private: true,
+        description: 'Some of my favorite exercises from CS3214 / Systems at VT (Fall 2022)'
     },
     {
         name: 'Assembler',

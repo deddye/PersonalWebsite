@@ -11,7 +11,7 @@ function ProjectDisplay() {
     return (
       <div className="project">
         <h1> {project.name} - {isPrivate} </h1>
-        <img src={project.image} alt='yuh'/>
+        <img src={project.image} alt='No pic yet'/>
         <p>
             <b>Skills:</b> {project.skills}
         </p>

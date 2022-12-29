@@ -87,9 +87,9 @@ function Experience() {
           </h4>
           <p>
             <ul>
-              <li> Participated in daily SCRUMS and code reviews. </li>
-              <li> Updated NPM packages </li>
-              <li> Changed gql queries from .tsx file type to plain text .gql file type</li>
+              <li> Used ReactJS, Kotlin, GraphQL, MongoDB, Azure DevOps and more to  
+                  assist in making a webapp for a smart model repository</li>
+              <li> Participated in daily standups and code reviews. </li>
             </ul>
 
           </p>
