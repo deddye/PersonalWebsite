@@ -1,8 +1,8 @@
 import React from 'react'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import GitHubIcon from '@material-ui/icons/GitHub'
-import EmailIcon from '@material-ui/icons/Email'
 import IconButton from '@material-ui/core/IconButton'
+import ContactMe from '../components/ContactForm'
 
 import '../styles/Home.css'
 
@@ -28,30 +28,27 @@ function Home() {
              <GitHubIcon />
             </IconButton>
           </a>
-          <IconButton color='primary'>
-            <EmailIcon />
-            <p> Email doesn't work :( </p>
-          </IconButton>
+          <ContactMe/>
         </div>
       </div>
       <div className='skills'>
         <h1> <u>Skills</u> </h1>
         <ol className='list'>
           <li className='item'>
-            <h2> Tools / OS </h2>
+            <h2> <u>Tools/ OS</u> </h2>
             <span> 
-              Windows, Linux, VS Code, Android Studio, 
-              Azure, Teams, NPM, MaterialUI
+              Windows, Linux, MongoDB, VS Code, IntelliJIDEA, Android Studio, 
+              Azure, Microsoft Teams
             </span>
           </li>
           <li className='item'>
-            <h2> Languages </h2>
+            <h2> <u>Languages</u> </h2>
             <span> 
-              Java - JavaFX, C, Assembly, Kotlin, Python, C++, JavaScript, C#
+              Java - JavaFX, C, Kotlin, JavaScript/ TypeScript, Python
             </span>
           </li>
           <li className='item'>
-            <h2> Soft Skills </h2>
+            <h2> <u>Soft Skills</u> </h2>
             <span>
               Communication, Conscientiousness, Research, Team collaboration,
               Problem solving

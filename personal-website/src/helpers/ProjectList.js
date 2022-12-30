@@ -19,7 +19,7 @@ export const ProjectList = [
         name:'Cush',
         url: 'https://github.com/deddye/Cush',
         image: Cush,
-        skills: 'C, Basic OS functionality, POSIX library, Linux (CentOS8)',
+        skills: 'C, POSIX library, Linux (CentOS8)',
         private: true,
         description: 'Program to run a custom shell which can handle a few builtins, processes, pipes, and I/O'
     },
