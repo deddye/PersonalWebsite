@@ -1,7 +1,7 @@
 # PersonalWebsite
 
-Personal website build using create react app. 
+Personal website using React and Material UI.
 
-Learned react-router-dom, some materialUI stuff, a timeline element, emailJS and some other things.
+TODOs
 
-I know the project list and items looks off on mobile, I'll get around to it at some point
+Finish about and put contact form from the about page or a button to its own page on the home
