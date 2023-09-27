@@ -45,8 +45,8 @@ function Experience() {
           <p>Canceled due to Covid.</p>
           <p> Because of the cancelation, 
             they held a 'Fall Engagement' for 3 months through the fall.
-            During the 'Fall Engagement', I worked with a team to research different modeling Tools
-            that could be use to automate models based on user data input.
+            During the 'Fall Engagement', I worked with a team to research different modeling tools
+            that could be used to automate models based on user data input.
           </p>
         </VerticalTimelineElement>
 

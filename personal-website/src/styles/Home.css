@@ -4,6 +4,22 @@
     font-family: "Arial", sans-serif;
     color: #3e497a;
   }
+
+  .aboutContent {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #21325e;
+    color: #f0f0f0;
+  }
+
+  .aboutContent h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: #9494b8;
+  }
   
   .about {
     width: 100%;
